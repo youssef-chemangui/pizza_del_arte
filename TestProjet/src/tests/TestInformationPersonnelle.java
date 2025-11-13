@@ -15,7 +15,7 @@ import pizzas.InformationPersonnelle;
  *
  * @author Eric Cariou
  * @see pizzas.InformationPersonnelle
- */
+ */ 
 class TestInformationPersonnelle {
   
   /**
