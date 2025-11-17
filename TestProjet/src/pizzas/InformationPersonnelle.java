@@ -117,8 +117,8 @@ public final class InformationPersonnelle implements java.io.Serializable {
     super();
     this.nom = nom;
     this.prenom = prenom;
-    this.adresse = adresse;
-    this.age = age;
+    this.adresse = (adresse != null) ? adresse : "";
+    this.age = (age >= 0) ? age : 0;
   }
   
   @Override
