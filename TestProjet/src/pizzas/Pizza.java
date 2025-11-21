@@ -47,7 +47,8 @@ public class Pizza {
         this.evaluations = new ArrayList<>();
     }
 
-    /** @return nom de la pizza */
+
+	/** @return nom de la pizza */
     public String getNom() {
         return nom;
     }
